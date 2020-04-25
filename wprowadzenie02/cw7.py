@@ -1,4 +1,6 @@
 def reverse_text(text):
     return text[::-1]
 
-print(reverse_text("abecadło"))
+
+if __name__ == "__main__":
+    print(reverse_text("abecadło"))

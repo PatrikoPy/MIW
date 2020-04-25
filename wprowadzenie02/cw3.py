@@ -4,6 +4,7 @@ def remove_letter(text, letter):
     return text
 
 
-print(remove_letter(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "it"))
+if __name__ == "__main__":
+    print(remove_letter(
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "it"))
