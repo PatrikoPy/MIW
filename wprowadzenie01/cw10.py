@@ -1,0 +1,3 @@
+phone_list = [753951456, 258744123, 123456789, 123456789, 321654987, 987654321, 147852369, 963258741]
+phone_list = list(set(phone_list))
+print(phone_list)
